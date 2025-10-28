@@ -4,7 +4,7 @@ A modern, responsive attendance management system built with React and Vite.
 
 ## 🚀 Live Demo
 
-[View Demo on GitHub Pages](https://ozosi.github.io/Attendance/)
+[View Demo on GitHub Pages](https://xheeze.github.io/Attendance_Management/)
 
 ## ✨ Features
 
@@ -28,10 +28,10 @@ A modern, responsive attendance management system built with React and Vite.
 
 ```bash
 # Clone the repository
-git clone https://github.com/ozosi/Attendance.git
+git clone https://github.com/xheeze/Attendance_Management.git
 
 # Navigate to project directory
-cd Attendance
+cd Attendance_Management
 
 # Install dependencies
 npm install
@@ -72,7 +72,7 @@ This app is configured for GitHub Pages deployment:
 
 1. Push to `main` branch
 2. GitHub Actions automatically builds and deploys
-3. Access at: `https://ozosi.github.io/Attendance/`
+3. Access at: `https://github.com/xheeze/Attendance_Management.git/`
 
 ## 📄 License
 
@@ -80,7 +80,7 @@ MIT License - feel free to use this project for your own purposes.
 
 ## 👤 Author
 
-**Ozosi**
+**Ntokozo_Xheeze_Sibiya**
 
 ---
 
