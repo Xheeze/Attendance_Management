@@ -1,0 +1,68 @@
+/* MonthlyReport.css */
+
+.mr-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mr-label {
+  font-weight: 600;
+}
+
+.mr-input {
+  padding: 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.mr-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 16px 0 20px;
+}
+
+.mr-tile {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.mr-value {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mr-label {
+  color: var(--color-text-muted);
+}
+
+.mr-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mr-table th,
+.mr-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+@media (max-width: 900px) {
+  .mr-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .mr-grid {
+    grid-template-columns: 1fr;
+  }
+  .mr-controls {
+    flex-wrap: wrap;
+  }
+}
