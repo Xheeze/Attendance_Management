@@ -60,5 +60,8 @@
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
     "vite": "^5.2.0"
-  }
+  },
+  "homepage":"xheeze.github.io/Attendance_Management",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
